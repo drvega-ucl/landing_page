@@ -22,7 +22,7 @@ body {
 
 .carousel {
     margin-top: 10px; /* Adjust this value as needed to move it closer to the carousel text */
-    font-size: 2.5vw; /* Use viewport width to scale the font size dynamically */
+    font-size: 4vw; /* Use viewport width to scale the font size dynamically */
     text-align: center; /* Center the carousel text */
     color: white; /* Ensure the text color is white for visibility */
     font-family: 'Courier New', Courier, monospace; /* Use Courier New */
