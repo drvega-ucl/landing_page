@@ -22,7 +22,7 @@ body {
 
 .carousel {
     margin-top: 10px; /* Adjust this value as needed to move it closer to the carousel text */
-    font-size: 48px; /* Keep the font size large for visibility */
+    font-size: 2.5vw; /* Use viewport width to scale the font size dynamically */
     text-align: center; /* Center the carousel text */
     color: white; /* Ensure the text color is white for visibility */
     font-family: 'Courier New', Courier, monospace; /* Use Courier New */
@@ -89,7 +89,6 @@ body {
     text-decoration: underline;
 }
 
-
 #bottom-right-text {
     position: absolute;
     bottom: 10px;
@@ -99,7 +98,7 @@ body {
 }
 
 #main-content {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -111,10 +110,7 @@ body {
 }
 
 #contact-us-container {
-    position: absolute;
-    top: 86%; /* Adjust this value to move it closer to the carousel */
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center it horizontally */
+    margin-top: 20px; /* Adjust this value to move it closer to the carousel */
     font-size: 14px;
 }
 
